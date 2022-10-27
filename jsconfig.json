@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "target": "ES6",
     "baseUrl": ".",
     "paths": {
       "@components/*": ["components/*"],
@@ -7,7 +8,9 @@
       "@contexts/*": ["contexts/*"],
       "@redux/*": ["redux/*"],
       "@shared/*": ["shared/*"],
-      "@widgets/*": ["widgets/*"]
+      "@widgets/*": ["widgets/*"],
+      "@locales/*": ["locales/*"],
+      "@hooks/*": ["hooks/*"]
     }
   }
 }
